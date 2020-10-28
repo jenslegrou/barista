@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  & h1 { margin-bottom: 0; }
+
+  @media (--only-small-screen) {
+    background-image: url(../../assets/img/plant-based-coffee.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - var(--spacerBig)) var(--spacerBig);
+  }
+
+  @media (--only-medium-screen) {
+    background-image: none;
+  }
+}
+
+.header__titles {
+  margin-right: var(--spacerSmall);
+
+  @media (--only-small-screen) {
+    max-width: 64.66%;
+  }
+
+  @media (--only-medium-screen) {
+    max-width: none;
+  }
+}

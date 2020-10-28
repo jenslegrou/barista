@@ -1,2 +1,2 @@
 # barista
-dit is een verandering in de readme als test
+Barista oefening van Jens Legrou
