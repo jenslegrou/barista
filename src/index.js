@@ -48,8 +48,8 @@ import data from './assets/data/coffees.json';
 
   const renderOrders = () => {
     if (orders.length > 0) {
-      document.querySelector(`.orders__wrapper`).classList.remove(`hide`);
-      document.querySelector(`.emptystate`).classList.add(`hide`);
+      document.querySelector(`.orders__wrapper`).classList.remove(`hidden`);
+      document.querySelector(`.emptystate`).classList.add(`hidden`);
 
       const $orders = document.querySelector(`.orders`);
       $orders.innerHTML = ``;
@@ -58,8 +58,8 @@ import data from './assets/data/coffees.json';
         $orders.appendChild($li);
       });
     } else {
-      document.querySelector(`.orders__wrapper`).classList.add(`hide`);
-      document.querySelector(`.emptystate`).classList.remove(`hide`);
+      document.querySelector(`.orders__wrapper`).classList.add(`hidden`);
+      document.querySelector(`.emptystate`).classList.remove(`hidden`);
     }
 
     calculateTotal();
