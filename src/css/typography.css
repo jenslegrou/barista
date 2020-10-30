@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/fyn7zpl.css");
+
 body {
   font-size: var(--fontRegular);
   font-family: var(--font);
@@ -10,8 +12,8 @@ body {
 
 h1, .h1-like {
   font-size: var(--fontBig);
-  font-family: var(--font);
-  font-weight: var(--fontWeightBold);
+  font-family: var(--fontTitle);
+  font-weight: var(--fontWeightTitle);
   margin: 0 0 1rem;
 }
 

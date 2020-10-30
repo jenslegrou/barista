@@ -1,8 +1,8 @@
 :root {
   --colorLightest: white;
   --colorText: #211f1f;
-  --colorMain: #f9d2cb;
-  --colorSecondary: #a3f4dc;
+  --colorMain: #F1E4B8;
+  --colorSecondary: #B2422A;
   --colorGray: #fafafa;
   --colorGrayDark: #9c9c9c;
   --spacerSmall: .75rem; /* 12px */
@@ -13,8 +13,10 @@
   --fontMedium: 1.25rem; /* 20px */
   --fontBig: 1.75rem; /* 28px */
   --font: 'Roboto', sans-serif;
+  --fontTitle: 'playfair-display', sans-serif;
   --fontWeightRegular: 400;
   --fontWeightBold: 500;
+  --fontWeightTitle: 700;
 }
 
 @custom-media --only-small-screen (width >= 360px);

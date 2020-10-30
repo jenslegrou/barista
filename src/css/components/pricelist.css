@@ -2,7 +2,7 @@
   padding-top: 0;
 
   @media (--only-medium-screen) {
-    background-image: url(../../assets/img/plant-based-coffee.png);
+    background-image: url(../../assets/img/logo.png);
     background-repeat: no-repeat;
     background-position: calc(50% - var(--spacerSmall)) calc(100% - var(--spacerBig));
   }
@@ -61,6 +61,7 @@
   display: block;
   padding: calc(var(--spacerSmall) / 2.5) calc(var(--spacerSmall) * 1);
   background: var(--colorSecondary);
+  color: white;
   border-radius: .3rem;
 
   @media (--only-small-screen) {
