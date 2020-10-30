@@ -5,13 +5,13 @@
   --colorSecondary: #B2422A;
   --colorGray: #fafafa;
   --colorGrayDark: #9c9c9c;
-  --spacerSmall: .75rem; /* 12px */
-  --spacerRegular: 1rem; /* 16px */
-  --spacerBig: 1.88rem; /* 30px */
-  --fontSmall: .75rem; /* 12px */
-  --fontRegular: 1.13rem; /* 18px */
-  --fontMedium: 1.25rem; /* 20px */
-  --fontBig: 1.75rem; /* 28px */
+  --spacerSmall: .75rem;
+  --spacerRegular: 1rem;
+  --spacerBig: 1.88rem;
+  --fontSmall: .75rem;
+  --fontRegular: 1.13rem;
+  --fontMedium: 1.25rem;
+  --fontBig: 1.75rem;
   --font: 'Roboto', sans-serif;
   --fontTitle: 'playfair-display', sans-serif;
   --fontWeightRegular: 400;

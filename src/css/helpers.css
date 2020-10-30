@@ -10,7 +10,7 @@
     background-color: var(--colorMain);
   }
   
-  .hide {
+  .hidden {
     display: none;
   }
   
